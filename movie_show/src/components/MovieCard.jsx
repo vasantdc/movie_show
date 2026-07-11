@@ -1,5 +1,4 @@
 import React from 'react'
-
 const MovieCard = ({ movie }) => {
     function fovoriteMovie() {
         alert(`You have added  ${movie.title} to your favorites!`);
